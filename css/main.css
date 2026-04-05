@@ -1,0 +1,164 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.roboto-italic {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.header,
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  color: #f9faf8;
+  padding: 0 16px;
+}
+
+.hero {
+  height: 55vh;
+  gap: 36px;
+  /* justify-content: center; */
+  padding: 0 36px;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 8px;
+}
+
+.header .title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hero-img {
+  height: 200px;
+  width: 375px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 4px;
+  color: #f9faf8;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.hero p {
+  color: #e5e7eb;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.hero > .left {
+  max-width: 50%;
+}
+.hero > * {
+  padding: 0 16px;
+}
+
+.info {
+  text-align: center;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card {
+  padding: 4px;
+  width: 120px;
+}
+
+.card img {
+  border: 3px solid blue;
+  border-radius: 16px;
+  width: 120px;
+}
+.card p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockquote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  padding-left: 16px;
+}
+
+.quote-snippet {
+  width: 80%;
+}
+
+.quote-source {
+  text-align: end;
+  font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  gap: 32px;
+  padding: 32px;
+}
+
+.modal p {
+  margin: 4px 0;
+  color: #f9faf8;
+}
+.modal button {
+  color: white;
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 4px;
+  padding: 4px 16px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9faf8;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
